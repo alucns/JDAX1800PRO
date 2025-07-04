@@ -1,4 +1,4 @@
-name: IPQ60XX-6.12
+name: IPQ60XX-6.12.1
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-6.12
+  FIRMWARE_TAG: IPQ60XX-6.12.1
   TZ: Asia/Shanghai
 
 jobs:
